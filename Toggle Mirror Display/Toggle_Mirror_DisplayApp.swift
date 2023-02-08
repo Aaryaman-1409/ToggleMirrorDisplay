@@ -28,7 +28,6 @@ func shell(_ command: String) -> String {
 func getMirrorPath() -> String {
     let bundle = Bundle.main
     let pathToExecutable = bundle.url(forResource: "mirror", withExtension: "")!.path()
-    print(pathToExecutable.replacingOccurrences(of: "%20", with: " "))
     return "'"+pathToExecutable.replacingOccurrences(of: "%20", with: " ")+"'"
 }
 
