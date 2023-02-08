@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75B68023299403BE0032E3BB /* Toggle_Mirror_DisplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B68022299403BE0032E3BB /* Toggle_Mirror_DisplayApp.swift */; };
+		75B6804E29940A630032E3BB /* mirror in Resources */ = {isa = PBXBuildFile; fileRef = 75B6804D29940A630032E3BB /* mirror */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75B68031299403C10032E3BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B68017299403BE0032E3BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75B6801E299403BE0032E3BB;
+			remoteInfo = "Toggle Mirror Display";
+		};
+		75B6803B299403C10032E3BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B68017299403BE0032E3BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75B6801E299403BE0032E3BB;
+			remoteInfo = "Toggle Mirror Display";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75B6801F299403BE0032E3BB /* Toggle Mirror Display.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toggle Mirror Display.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B68022299403BE0032E3BB /* Toggle_Mirror_DisplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggle_Mirror_DisplayApp.swift; sourceTree = "<group>"; };
+		75B6802B299403C10032E3BB /* Toggle_Mirror_Display.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Toggle_Mirror_Display.entitlements; sourceTree = "<group>"; };
+		75B68030299403C10032E3BB /* Toggle Mirror DisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toggle Mirror DisplayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B6803A299403C10032E3BB /* Toggle Mirror DisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toggle Mirror DisplayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B6804D29940A630032E3BB /* mirror */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mirror; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75B6801C299403BE0032E3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B6802D299403C10032E3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B68037299403C10032E3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75B68016299403BE0032E3BB = {
+			isa = PBXGroup;
+			children = (
+				75B6804D29940A630032E3BB /* mirror */,
+				75B68021299403BE0032E3BB /* Toggle Mirror Display */,
+				75B68020299403BE0032E3BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75B68020299403BE0032E3BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75B6801F299403BE0032E3BB /* Toggle Mirror Display.app */,
+				75B68030299403C10032E3BB /* Toggle Mirror DisplayTests.xctest */,
+				75B6803A299403C10032E3BB /* Toggle Mirror DisplayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75B68021299403BE0032E3BB /* Toggle Mirror Display */ = {
+			isa = PBXGroup;
+			children = (
+				75B68022299403BE0032E3BB /* Toggle_Mirror_DisplayApp.swift */,
+				75B6802B299403C10032E3BB /* Toggle_Mirror_Display.entitlements */,
+			);
+			path = "Toggle Mirror Display";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75B6801E299403BE0032E3BB /* Toggle Mirror Display */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B68044299403C10032E3BB /* Build configuration list for PBXNativeTarget "Toggle Mirror Display" */;
+			buildPhases = (
+				75B6801B299403BE0032E3BB /* Sources */,
+				75B6801C299403BE0032E3BB /* Frameworks */,
+				75B6801D299403BE0032E3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toggle Mirror Display";
+			productName = "Toggle Mirror Display";
+			productReference = 75B6801F299403BE0032E3BB /* Toggle Mirror Display.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75B6802F299403C10032E3BB /* Toggle Mirror DisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B68047299403C10032E3BB /* Build configuration list for PBXNativeTarget "Toggle Mirror DisplayTests" */;
+			buildPhases = (
+				75B6802C299403C10032E3BB /* Sources */,
+				75B6802D299403C10032E3BB /* Frameworks */,
+				75B6802E299403C10032E3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75B68032299403C10032E3BB /* PBXTargetDependency */,
+			);
+			name = "Toggle Mirror DisplayTests";
+			productName = "Toggle Mirror DisplayTests";
+			productReference = 75B68030299403C10032E3BB /* Toggle Mirror DisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75B68039299403C10032E3BB /* Toggle Mirror DisplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B6804A299403C10032E3BB /* Build configuration list for PBXNativeTarget "Toggle Mirror DisplayUITests" */;
+			buildPhases = (
+				75B68036299403C10032E3BB /* Sources */,
+				75B68037299403C10032E3BB /* Frameworks */,
+				75B68038299403C10032E3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75B6803C299403C10032E3BB /* PBXTargetDependency */,
+			);
+			name = "Toggle Mirror DisplayUITests";
+			productName = "Toggle Mirror DisplayUITests";
+			productReference = 75B6803A299403C10032E3BB /* Toggle Mirror DisplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75B68017299403BE0032E3BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					75B6801E299403BE0032E3BB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					75B6802F299403C10032E3BB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 75B6801E299403BE0032E3BB;
+					};
+					75B68039299403C10032E3BB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 75B6801E299403BE0032E3BB;
+					};
+				};
+			};
+			buildConfigurationList = 75B6801A299403BE0032E3BB /* Build configuration list for PBXProject "Toggle Mirror Display" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75B68016299403BE0032E3BB;
+			productRefGroup = 75B68020299403BE0032E3BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75B6801E299403BE0032E3BB /* Toggle Mirror Display */,
+				75B6802F299403C10032E3BB /* Toggle Mirror DisplayTests */,
+				75B68039299403C10032E3BB /* Toggle Mirror DisplayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75B6801D299403BE0032E3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B6804E29940A630032E3BB /* mirror in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B6802E299403C10032E3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B68038299403C10032E3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75B6801B299403BE0032E3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B68023299403BE0032E3BB /* Toggle_Mirror_DisplayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B6802C299403C10032E3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B68036299403C10032E3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75B68032299403C10032E3BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75B6801E299403BE0032E3BB /* Toggle Mirror Display */;
+			targetProxy = 75B68031299403C10032E3BB /* PBXContainerItemProxy */;
+		};
+		75B6803C299403C10032E3BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75B6801E299403BE0032E3BB /* Toggle Mirror Display */;
+			targetProxy = 75B6803B299403C10032E3BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75B68042299403C10032E3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75B68043299403C10032E3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		75B68045299403C10032E3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Toggle Mirror Display/Toggle_Mirror_Display.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 5L2TULNW6T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aaryaman.Toggle-Mirror-Display";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		75B68046299403C10032E3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Toggle Mirror Display/Toggle_Mirror_Display.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 5L2TULNW6T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aaryaman.Toggle-Mirror-Display";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		75B68048299403C10032E3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L2TULNW6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aaryaman.Toggle-Mirror-DisplayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toggle Mirror Display.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Toggle Mirror Display";
+			};
+			name = Debug;
+		};
+		75B68049299403C10032E3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L2TULNW6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aaryaman.Toggle-Mirror-DisplayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toggle Mirror Display.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Toggle Mirror Display";
+			};
+			name = Release;
+		};
+		75B6804B299403C10032E3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L2TULNW6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aaryaman.Toggle-Mirror-DisplayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Toggle Mirror Display";
+			};
+			name = Debug;
+		};
+		75B6804C299403C10032E3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L2TULNW6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aaryaman.Toggle-Mirror-DisplayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Toggle Mirror Display";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75B6801A299403BE0032E3BB /* Build configuration list for PBXProject "Toggle Mirror Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B68042299403C10032E3BB /* Debug */,
+				75B68043299403C10032E3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B68044299403C10032E3BB /* Build configuration list for PBXNativeTarget "Toggle Mirror Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B68045299403C10032E3BB /* Debug */,
+				75B68046299403C10032E3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B68047299403C10032E3BB /* Build configuration list for PBXNativeTarget "Toggle Mirror DisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B68048299403C10032E3BB /* Debug */,
+				75B68049299403C10032E3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B6804A299403C10032E3BB /* Build configuration list for PBXNativeTarget "Toggle Mirror DisplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B6804B299403C10032E3BB /* Debug */,
+				75B6804C299403C10032E3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75B68017299403BE0032E3BB /* Project object */;
+}
